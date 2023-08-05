@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2627069100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate user is able to view after log in",
+        "description": "",
+        "id": "loggedin-user-view;validate-user-is-able-to-view-after-log-in",
+        "after": [
+          {
+            "result": {
+              "duration": 99388600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4645545500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335837000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User successfully enters the log in details",
+            "match": {
+              "location": "SignInPage.user_logsin_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60928500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to view the product category page",
+            "match": {
+              "location": "ProductCategoryPage.product_category_validation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@loggedInUser"
+          }
+        ]
+      }
+    ],
+    "name": "LoggedIn User View",
+    "description": "",
+    "id": "loggedin-user-view",
+    "keyword": "Feature",
+    "uri": "LoggedInUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1650385800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate new user is able to view after clicking on new Registration",
+        "description": "",
+        "id": "new-user-view;validate-new-user-is-able-to-view-after-clicking-on-new-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 98979900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4236641300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189466100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on new Registration button",
+            "match": {
+              "location": "RegistrationPage.user_clicks_on_new_registration_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044839700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the Registration page",
+            "match": {
+              "location": "RegistrationPage.user_should_be_able_to_view_the_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User View",
+    "description": "",
+    "id": "new-user-view",
+    "keyword": "Feature",
+    "uri": "NewUser.feature"
+  }
+]
